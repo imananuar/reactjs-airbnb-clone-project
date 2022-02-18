@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Circular;
+    src: url(../assets/Circular/CircularStd-Medium.otf);
+}
+
+@font-face {
+    font-family: Circular;
+    font-weight: bold;
+    src: url(../assets/Circular/CircularStd-Bold.otf)
+}
