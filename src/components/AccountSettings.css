@@ -1,0 +1,65 @@
+@media (min-width: 743px){
+
+    .account-settings {
+        display: flex;
+    }
+
+    .host-text {
+        font-family: "Circular";
+        font-size: 15px;
+        font-weight: bold;
+        color: #fff;
+        margin: auto 0;
+        padding: .83rem 1rem;
+        border-radius: 2.5rem;
+    }
+
+    .host-text:hover {
+        background-color: rgba(255,255,255,0.15);
+    }
+
+    .globe-icon-div {
+        /* position: absolute; */
+        margin: auto;
+    }
+
+    .globe-icon {
+        position: relative;
+        font-size: .9rem;
+        margin: auto;
+        right:12%;
+        padding: .95rem 1rem;
+        border-radius: 2rem;
+
+    }
+
+    .globe-icon:hover {
+        background-color: rgba(255,255,255,0.15);
+    }
+
+    .user-account {
+        margin: auto;
+        background-color: #fff;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+
+    .span-icon {
+        vertical-align: middle;
+    }
+
+    .burger-menu-icon {
+        margin: .8rem auto;
+        margin-right: .5rem;
+        margin-left: .8rem;
+        color: #000;
+    }
+
+    .user-icon {
+        font-size: 1.2rem;
+        padding: .4rem;
+        margin: auto .5rem;
+        border-radius: 1rem;
+        background-color: #717171;
+    }
+}

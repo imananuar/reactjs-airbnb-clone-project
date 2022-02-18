@@ -1,4 +1,5 @@
 import React from 'react';
+import './Title.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAirbnb } from "@fortawesome/free-brands-svg-icons";
 

@@ -8,3 +8,9 @@
     font-weight: bold;
     src: url(../assets/Circular/CircularStd-Bold.otf)
 }
+
+@font-face {
+    font-family: Circular;
+    font-weight: light;
+    src: url(../assets/Circular/CircularStd-Light.otf);
+}
