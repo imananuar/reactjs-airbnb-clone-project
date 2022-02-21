@@ -8,8 +8,8 @@
     .directory {
         display: flex;
         justify-content: center;
-        margin-top: 15px;
-        margin-bottom: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .d-text {
         margin: auto;

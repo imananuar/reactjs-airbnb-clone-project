@@ -1,0 +1,29 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
+
+.header-image {
+    background-image: url('/assets/header-image-2.jpg');
+    background-size: 100%;
+    border-radius: 15px;
+    margin: auto 5%;
+    width: 90%;
+    height: 90%;
+    z-index: 10;
+}
+
+
+.text-wrapper {
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    bottom: 10px;
+}
+.header-copywriting {
+    margin: 0 auto;
+    font-size: 3rem;
+    font-family: 'Circular';
+    font-weight: bold;
+}

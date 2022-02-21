@@ -1,8 +1,8 @@
 @media (min-width: 743px){
-    .navbar {
-        padding: 1rem 5%;
-        display: flex;
-        justify-content: space-between;
+
+    .title {
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .airbnb-icon {
