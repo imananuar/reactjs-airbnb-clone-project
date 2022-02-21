@@ -12,6 +12,10 @@
         padding-left: 2px;
     }
 
+    .airbnb-icon:hover {
+        cursor:pointer;
+    }
+
     @media (max-width: 1128px) {
         .airbnb-title {
             display: none;

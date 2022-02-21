@@ -1,0 +1,10 @@
+.second-header {
+    background-color: #000;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 743px) {
+    .second-header {
+        /* background-color: transparent; */
+    }
+}

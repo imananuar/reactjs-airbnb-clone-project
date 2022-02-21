@@ -3,6 +3,7 @@ import './Navbar.css';
 import Title from './Title';
 import Directory from './Directory';
 import AccountSettings from './AccountSettings';
+import MediaQuery from 'react-responsive';
 
 
 function Navbar() {
@@ -10,7 +11,9 @@ function Navbar() {
     return (
     <nav className="navbar">
         <Title />
-        <Directory />
+        <MediaQuery query ="(min-width:948px)" >
+          <Directory />
+        </MediaQuery>
         <AccountSettings />
     </nav>
   )

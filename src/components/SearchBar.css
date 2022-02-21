@@ -1,0 +1,139 @@
+.search-bar-container {
+    width: 868px;
+    margin:auto;
+    padding: 0;
+}
+
+.search-bar {
+    font-family: 'Circular';
+    font-size: .8rem;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    height: 4.2rem;
+    border-radius: 4rem;
+}
+
+.child-components {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin: auto 30px;
+    margin-right: 10px;
+}
+
+input {
+    font-size: .85rem;
+    padding-left: 0;
+    padding-top: 2px;
+    letter-spacing: .5px;
+    width: 90%;
+    border: none;
+    color: #717171;
+}
+
+.suggestion {
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 15px;
+}
+
+.suggestion-subtext {
+    letter-spacing: .2px;
+    font-size: .9rem;
+    color: #717171;
+    font-weight: 300;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.location{
+    width: 30%;
+}
+
+.check-in, .check-out, .guest {
+    border-left: 1px solid #bebebe;
+    padding-left: 1.2rem;
+}
+
+.check-in {
+    width: 20%;
+}
+
+.check-out {
+    width: 20%;
+}
+
+.guest {
+    width: 25%;
+}
+
+
+.guest {
+    display: flex;
+}
+
+.search {
+    margin-left: auto;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #FF385C;
+    border-radius: 2rem;
+    color:#fff;
+}
+
+.destination {
+    display:none;
+}
+
+@media (max-width: 743px) {
+
+    .search-bar-container {
+        padding-top: 16px;
+        width: 93%;
+        
+    }
+
+    .search-bar {
+        height: 3rem;
+    }
+
+    .child-components {
+        margin: auto 40px;
+    }
+
+    .location, .check-in, .check-out, .guest {
+        display: none;
+    }
+
+    .destination {
+        display: flex;
+    }
+
+    .destination a {
+        color: #000;
+        font-size: .9rem;
+        /* font-weight: 400; */
+    }
+
+    .destination .search-icon {
+        color: #FF385C;
+        margin: auto 5px;
+    }
+}
+
+@media (min-width: 743px) and (max-width: 948px) {
+    .search-bar {
+        margin: auto 1%;
+        width: 90%;
+    }
+
+    .search-bar-container{
+        width: 90%;
+    }
+}
