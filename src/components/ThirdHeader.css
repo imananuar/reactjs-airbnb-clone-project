@@ -8,11 +8,12 @@
     background-image: url('/assets/header-image-2.jpg');
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: 100%;
+    /* background-position: center center; */
     border-radius: 15px;
     margin: auto 5%;
     width: 90%;
-    height: 100%;
+    height: 100vh;
     z-index: 10;
 }
 
@@ -60,11 +61,29 @@
         top: 0;
         z-index: -1;
     }
+
+    .header-image {
+        background-size: auto;
+        background-position-x: center;
+        /* background-position-y: center; */
+    }
+
+    .partition {
+        height: 52.5%;
+    }
+
+    .header-copywriting {
+        font-size: 1.8rem;
+        font-weight: 300;
+        width: 70%;
+        line-height: 2rem;
+        
+    }
 }
 
 @media (min-width: 743px) {
     .header-image {
-        background-size: 100%
+        background-size: 100%;
     }
 }
 
@@ -76,6 +95,6 @@
     }
 
     .partition {
-        height: 55%;
+        /* height: 55%; */
     }
 }
