@@ -1,5 +1,5 @@
 .wrapper {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-color: #000;
 }
@@ -60,17 +60,22 @@
         position: absolute;
         top: 0;
         z-index: -1;
+        height: 100vw;
+    }
+    
+    .partition {
+        height: 115vw;
     }
 
     .header-image {
-        background-size: auto;
+        background-size: 320%;
         background-position-x: center;
         /* background-position-y: center; */
     }
 
-    .partition {
+    /* .partition {
         height: 52.5%;
-    }
+    } */
 
     .header-copywriting {
         font-size: 1.8rem;
@@ -78,6 +83,12 @@
         width: 70%;
         line-height: 2rem;
         
+    }
+    .header-btn {
+        margin-top: 1.2rem;
+        font-size: 1rem;
+        padding: .85rem 1.3rem;
+        background-color: #fff;
     }
 }
 
