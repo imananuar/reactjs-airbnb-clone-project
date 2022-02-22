@@ -1,5 +1,17 @@
 @media (min-width: 743px){
 
+    .text-on-scroll {
+        color: #000 !important;
+    }
+
+    .text-on-scroll:hover {
+        background-color: rgba(190,190,190,0.15) !important;
+    }
+
+    .border-on-scroll {
+        border: 1px solid #bebebe;
+    }
+
     .account-settings {
         display: flex;
         height: 100%;
@@ -14,6 +26,7 @@
         margin: auto 0;
         padding: .83rem 1rem;
         border-radius: 2.5rem;
+        letter-spacing: -0.02rem;
     }
 
     .host-text:hover {

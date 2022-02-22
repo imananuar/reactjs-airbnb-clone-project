@@ -2,12 +2,10 @@
     display: none;
     /* position: fixed; */
 }
-/* 
-@media (min-width: 1128px) {
-    .navbar {
-        height: 80px;
-    }
-} */
+
+.navbar-on-scroll {
+    background-color: #fff;
+}
 
 @media (min-width: 743px) {
     .navbar {

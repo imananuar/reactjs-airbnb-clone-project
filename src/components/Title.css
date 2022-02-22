@@ -1,5 +1,9 @@
 @media (min-width: 743px) {
 
+    .title-on-scroll {
+        color: #FF385C !important;
+    }
+
     .title {
         margin-left: 5%;
         margin-top: auto;
