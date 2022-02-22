@@ -129,8 +129,8 @@ input {
 
 @media (min-width: 743px) and (max-width: 948px) {
     .search-bar {
-        margin: auto 1%;
-        width: 90%;
+        margin: auto;
+        width: 100%;
     }
 
     .search-bar-container{

@@ -5,8 +5,12 @@ function ThirdHeader() {
   return (
     <div className='wrapper'>
         <div className='header-image '>
-            <div className="text-wrapper">
-                <h1 class="header-copywriting">Not sure where to go? Perfect.</h1>
+            <div class='partition'></div>
+            <div className="header-copywriting">
+                Not sure where to go? Perfect.
+            </div>
+            <div className='button-wrapper'>
+                    <button className='header-btn'><span className='purple-gradient'>I'm flexible</span></button>
             </div>
         </div>
     </div>
