@@ -1,15 +1,19 @@
-@media (min-width: 743px){
+@media (min-width: 743px) {
 
     .title {
+        margin-left: 5%;
         margin-top: auto;
         margin-bottom: auto;
     }
 
+    .title-and-logo-wrapper {
+        height: 100%;
+        padding-right: 155px;
+    }
+
     .airbnb-icon {
         font-size: 2.3rem;
-        padding-top: 4px;
         padding-right: 4px;
-        padding-left: 2px;
     }
 
     .airbnb-icon:hover {
@@ -23,6 +27,12 @@
     }
 }
 
+@media (min-width: 948px) and (max-width: 1128px) {
+    .title {
+        margin-left: 3%;;
+    }
+}
+
 @media (min-width: 1128px) {
     .airbnb-title {
         font-family: 'Montserrat Alternates', sans-serif;
@@ -31,5 +41,8 @@
         letter-spacing: -.5px;
         vertical-align: super;
         color: #fff;
+    };
+    .title-and-logo-wrapper {
+        padding-right: 0;
     }
 }

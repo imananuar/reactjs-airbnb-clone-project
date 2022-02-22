@@ -1,19 +1,20 @@
 .navbar {
     display: none;
+    /* position: fixed; */
 }
-
+/* 
 @media (min-width: 1128px) {
     .navbar {
-        padding: 14px 5%;
+        height: 80px;
     }
-}
+} */
 
 @media (min-width: 743px) {
     .navbar {
-        position: sticky;
-        padding: 14px 5%;
+        position: fixed;
+        height: 80px;
         display: flex;
         justify-content: space-between;
-
+        width: 100%;
     }
 }

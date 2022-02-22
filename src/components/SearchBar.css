@@ -1,7 +1,7 @@
 .search-bar-container {
-    width: 840px;
+    width: 850px;
     margin:auto;
-    padding: 0;
+    padding-top: 80px;
 }
 
 .search-bar {
@@ -53,12 +53,12 @@ input {
 }
 
 .location{
-    width: 30%;
+    width: 31%;
 }
 
 .check-in, .check-out, .guest {
     border-left: 1px solid #bebebe;
-    padding-left: 1.2rem;
+    padding-left: 1.5rem;
 }
 
 .check-in {
@@ -91,6 +91,10 @@ input {
     display:none;
 }
 
+/* @media (min-width:743px) and (max-width: 948px) {
+    
+} */
+
 @media (max-width: 743px) {
 
     .search-bar-container {
@@ -118,7 +122,6 @@ input {
     .destination a {
         color: #000;
         font-size: .9rem;
-        /* font-weight: 400; */
     }
 
     .destination .search-icon {
@@ -134,6 +137,7 @@ input {
     }
 
     .search-bar-container{
+        padding-top: 0;
         width: 90%;
     }
 }

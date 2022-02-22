@@ -8,14 +8,17 @@
     .directory {
         display: flex;
         justify-content: center;
-        margin-top: 10px;;
-        margin-bottom: 1.8rem;
     }
+
+    .directory-container {
+        margin: auto;
+    }
+
     .d-text {
         margin: auto;
         box-shadow: none;
         color: #fff;
-        padding: 10px 12px;
+        padding: 0px 16px;
         font-family: 'Circular';
         font-weight: 300;
         font-size: 17px;
@@ -65,19 +68,17 @@
         transform-origin: center;
       }
 
-    @media (max-width: 943px) {
-        .directory.container {
-            margin: auto;
-        }
-    }
 }
-@media (min-width: 1128px) {
-    .directory {
-        margin-left: 9.5rem;
+
+@media (min-width: 743px) and (max-width: 948px) {
+    
+    .directory-container {
+        margin-top: 90px;
+        margin-bottom: 30px;
     }
 
     .d-text {
-        padding: 0 16px;
-    }
+        font-size: 15px;
+    }    
 }
 

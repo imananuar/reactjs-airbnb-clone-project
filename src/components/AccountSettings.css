@@ -2,6 +2,8 @@
 
     .account-settings {
         display: flex;
+        height: 100%;
+        margin-right: 3%;
     }
 
     .host-text {
@@ -62,5 +64,11 @@
         margin: auto .5rem;
         border-radius: 1rem;
         background-color: #717171;
+    }
+}
+
+@media (min-width: 1128px) {
+    .account-settings {
+        margin-right: 5%;
     }
 }

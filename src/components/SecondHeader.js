@@ -8,7 +8,9 @@ function SecondHeader(){
   return (
     <div className="second-header">
         <MediaQuery query ="(max-width:948px)" >
-          <Directory />
+          <div class="directory-wrapper">
+            <Directory />
+          </div>
         </MediaQuery>
         <SearchBar />
     </div>

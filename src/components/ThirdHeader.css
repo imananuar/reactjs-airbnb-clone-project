@@ -6,8 +6,9 @@
 
 .header-image {
     background-image: url('/assets/header-image-2.jpg');
-    background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 15px;
     margin: auto 5%;
     width: 90%;
@@ -51,6 +52,20 @@
     background: -webkit-linear-gradient(#6F019C, #C6017E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 743px) {
+    .wrapper {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 743px) {
+    .header-image {
+        background-size: 100%
+    }
 }
 
 @media (max-width: 1128px) {

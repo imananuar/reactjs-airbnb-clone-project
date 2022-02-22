@@ -11,7 +11,7 @@ function Navbar() {
     return (
     <nav className="navbar">
         <Title />
-        <MediaQuery query ="(min-width:948px)" >
+        <MediaQuery query ="(min-width:949px)" >
           <Directory />
         </MediaQuery>
         <AccountSettings />

@@ -1,10 +1,16 @@
 .second-header {
     background-color: #000;
-    padding-bottom: 2rem;
+    padding-bottom: 1.8rem;
+
+}
+
+.directory-wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 743px) {
     .second-header {
-        /* background-color: transparent; */
+        background-color: transparent;
     }
 }
