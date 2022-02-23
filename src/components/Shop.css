@@ -1,0 +1,33 @@
+.shop {
+    margin: 6rem 0;
+}
+
+.shop-container {
+    display: flex;
+}
+
+.shop-content {
+    width: 40%;
+    font-family: 'Circular';
+}
+
+.shop-headline {
+    display: flex;
+    width: 70%;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.learn-more-button {
+    color: #fff;
+    background-color: #222222;
+    font-size: 1rem;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    margin-top: 2rem;
+    padding: 14px 24px;
+}
+
+.shop-img {
+    width: 100%;
+}
