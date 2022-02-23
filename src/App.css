@@ -15,7 +15,9 @@ a {
     padding: 5rem;
 }
 
-
+main {
+    margin: auto 5%;
+}
 @media (max-width: 743px) {
     header {
         background-color: transparent;

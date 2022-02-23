@@ -1,6 +1,7 @@
 .navbar {
     display: none;
     /* position: fixed; */
+    z-index:100;
 }
 
 .navbar-on-scroll {

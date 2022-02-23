@@ -1,0 +1,18 @@
+.next-trip {
+    /* display: flex; */
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.next-trip-headline {
+    font-family: 'Circular';
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: -0.1rem;
+    margin-bottom: 3rem;
+    /* */
+}
+@media (min-width: 1128px) {
+
+    /* Card without carousel */
+}
