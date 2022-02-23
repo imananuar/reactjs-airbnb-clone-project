@@ -22,7 +22,7 @@ function SecondHeader(){
             <Directory />
           </div>
         </MediaQuery>
-        {color? <div className="margin-on-scroll" />: <SearchBar />}
+        <SearchBar />
     </div>
   )
 }
