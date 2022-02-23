@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.margin-on-scroll {
+    padding: 5rem;
+}
+
 @media (max-width: 743px) {
     .second-header {
         background-color: transparent;

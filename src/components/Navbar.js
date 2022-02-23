@@ -4,6 +4,7 @@ import Title from './Title';
 import Directory from './Directory';
 import AccountSettings from './AccountSettings';
 import MediaQuery from 'react-responsive';
+import SearchBarOnScroll from './SearchBarOnScroll';
 
 function Navbar() {
 
@@ -22,7 +23,7 @@ function Navbar() {
     <nav className={color ? 'navbar navbar-on-scroll': 'navbar'}>
         <Title />
         <MediaQuery query ="(min-width:949px)">
-          <Directory />
+          {color ? <SearchBarOnScroll /> : <Directory />}
         </MediaQuery>
         <AccountSettings />
     </nav>
