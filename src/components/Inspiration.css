@@ -1,0 +1,51 @@
+.inspiration-headline {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    padding-bottom: 1rem;
+}
+
+.inspiration-suggestion {
+    display: flex;
+    border-bottom: 1px solid rgba(190,190,190,0.7);
+    /* justify-content:start; */
+}
+
+ .inspiration-suggestion a {
+    font-size: .95rem;
+    /* font-weight: bold; */
+    color: rgb(113,113,113);
+    padding: 0 0.75rem;
+    padding-bottom: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.inspiration-suggestion .a-1 {
+    color: #000;
+    padding-left: 0;
+    border-bottom: 2px solid #000;
+}
+
+.listed-countries {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1.5rem;
+    margin: 2.5rem auto;
+}
+
+.listed-countries a {
+    font-size: .9rem;
+    /* line-height: 8px; */
+}
+
+.district a{
+    color: #000;
+}
+
+.city a {
+    color: rgba(113,113,113);
+}
+
+

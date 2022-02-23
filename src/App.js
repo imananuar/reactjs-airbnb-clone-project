@@ -8,6 +8,7 @@ import NextTrip from './components/NextTrip';
 import Discover from './components/Discover';
 import Shop from './components/Shop';
 import Question from './components/Question';
+import Inspiration from './components/Inspiration';
 
 function App() {
 
@@ -36,6 +37,10 @@ function App() {
         <Shop />
         <Question />
       </main>
+
+      <footer>
+        <Inspiration />
+      </footer>
     </div>
   );
 }

@@ -15,8 +15,9 @@ a {
     padding: 5rem;
 }
 
-main {
+main, footer {
     margin: auto 5%;
+    font-family: "Circular";
 }
 @media (max-width: 743px) {
     header {
