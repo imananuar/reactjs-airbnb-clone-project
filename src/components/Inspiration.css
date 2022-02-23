@@ -48,4 +48,9 @@
     color: rgba(113,113,113);
 }
 
-
+.show-more {
+    color: #000;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

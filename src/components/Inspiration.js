@@ -22,7 +22,7 @@ function Inspiration() {
                     <a href="#">Arizona</a>
                 </div>
             </div>
-            <div className="col">
+            <div className="col-2">
                 <div className='district'>
                     <a href="#">Hot Springs</a>
                 </div>
@@ -30,7 +30,7 @@ function Inspiration() {
                     <a href="#">Arkansas</a>
                 </div>
             </div>
-            <div className='col'>
+            <div className='col-2'>
                 <div className='district'>
                     <a href="#">Los Angeles</a>
                 </div>
@@ -38,7 +38,7 @@ function Inspiration() {
                     <a href="#">California</a>
                 </div>
             </div>
-            <div className='col'>
+            <div className='col-2'>
                 <div className='district'>
                     <a href="#">San Diego</a>
                 </div>
@@ -46,7 +46,7 @@ function Inspiration() {
                     <a href="#">California</a>
                 </div>
             </div>
-            <div className="col">
+            <div className="col-2">
                 <div className='district'>
                     <a href="#">San Fransisco</a>
                 </div>
@@ -54,7 +54,7 @@ function Inspiration() {
                     <a href="#">California</a>
                 </div>
             </div>
-            <div className="col">
+            <div className="col-2">
                 <div className='district'>
                     <a href="#">Barcelona</a>
                 </div>
@@ -62,7 +62,7 @@ function Inspiration() {
                     <a href="#">Catalonia</a>
                 </div>
             </div>
-            <div className="col">
+            <div className="col-2">
                 <div className='district'>
                     <a href="#">Prague</a>
                 </div>
@@ -70,7 +70,7 @@ function Inspiration() {
                     <a href="#">Czechia</a>
                 </div>
             </div>
-            <div className="col">
+            <div className="col-2">
                 <div className='district'>
                     <a href="#">Washington</a>
                 </div>
@@ -78,7 +78,7 @@ function Inspiration() {
                     <a href="#">District of Columbia</a>
                 </div>
             </div>
-            <div className="col">
+            <div className="col-2">
                 <div className='district'>
                     <a href="#">Keswick</a>
                 </div>
@@ -86,7 +86,7 @@ function Inspiration() {
                     <a href="#">England</a>
                 </div>
             </div>
-            <div className="col">
+            <div className="col-2">
                 <div className='district'>
                     <a href="#">London</a>
                 </div>
@@ -94,13 +94,16 @@ function Inspiration() {
                     <a href="#">England</a>
                 </div>
             </div>
-            <div className="col">
+            <div className="col-2">
                 <div className='district'>
                     <a href="#">Scarborough</a>
                 </div>
                 <div className="city">
                     <a href="#">England</a>
                 </div>
+            </div>
+            <div className="col-2">
+                <a href="#" className="show-more">Show More</a>
             </div>
         </div>
     </div>
