@@ -1,0 +1,67 @@
+.other-information {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(113,113,113, 0.4); 
+    padding: 2rem 0;   
+}
+
+.copyright, .social-media-currency, .currency, .social-media {
+    display: flex;
+    margin:0;
+    font-size: .9rem;
+}
+
+.social-media {
+    margin: auto;
+}
+
+.currency {
+    padding: 0;
+}
+
+.copyright-icon {
+    font-size: .9rem;
+    color: #222222;
+    padding-right: 8px;
+}
+
+.dot {
+    display: inline-block !important;
+    text-align: center !important;
+    width: 19px !important;
+    vertical-align: middle;
+}
+
+.other-information a {
+    color: #000;
+}
+
+.globe-footer {
+    margin: auto;
+    margin-right: 12px;
+}
+
+.currency a {
+    font-size: .9rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: auto;
+}
+
+.english {
+    padding-right: 1rem;
+}
+.rm {
+    font-weight: 300 !important;
+    text-decoration: none !important;
+    padding-right: 12px;
+}
+
+.myr {
+    padding-right: 3.5rem;
+}
+
+.fb-footer, .twitter-footer, .ig-footer {
+    font-size: 1.2rem;
+    padding: 0 10px;
+}

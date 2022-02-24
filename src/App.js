@@ -10,6 +10,7 @@ import Shop from './components/Shop';
 import Question from './components/Question';
 import Inspiration from './components/Inspiration';
 import Support from './components/Support';
+import ContactUs from './components/ContactUs';
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
       <footer>
         <Inspiration />
         <Support />
+        <ContactUs />
       </footer>
     </div>
   );
